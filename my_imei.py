@@ -15,6 +15,8 @@ while True:
     even_total=0
     odd_total=0
     
+    print("enter the first 14 digits...")
+
     imei=input("ENTER IMEI: ")
     if re.search(r"\D",imei)  or imei=="":
         print("please enter 14 digits")
